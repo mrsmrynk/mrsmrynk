@@ -18,7 +18,10 @@ jobs:
         shell: bash
 
       - name: Commit changed files
-        run: git commit -a -m "daily commit :-)"
+        run: |
+          git config --global user.name "mrsmrynk"
+          git config --global user.email "marius.maryniak@w-hs.de"
+          git commit -a -m "daily commit :-)"
 
       - name: Push
         run: git push origin HEAD:main
