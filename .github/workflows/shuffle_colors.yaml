@@ -1,0 +1,23 @@
+name: Shuffle colors
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  shuffle_colors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run script
+        run: |
+          chmod +x ./color_shuffler.sh
+          ./color_shuffler.sh
+        shell: bash
+
+      - name: Commit changed files
+        run: git commit -a -m "daily commit :-)"
+
+      - name: Push
+        run: git push origin HEAD:main
