@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.tensorflow.org"><img width="32px" alt="TensorFlow" title="TensorFlow" src="data/tensorflow.svg"/></a>
   &nbsp;&nbsp;
-  <a href="https://keras.io"><img width="32px" alt="Keras" title="Keras" src="data/keras.svg"/></a>
+  <a href="https://pytorch.org"><img width="32px" alt="PyTorch" title="PyTorch" src="data/pytorch.svg"/></a>
   &nbsp;&nbsp;
   <a href="https://numpy.org"><img width="32px" alt="NumPy" title="NumPy" src="data/numpy.svg"/></a>
   &nbsp;&nbsp;
